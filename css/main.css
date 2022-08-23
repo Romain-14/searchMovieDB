@@ -1,0 +1,148 @@
+@font-face {
+ font-family: "Great";
+ src: url("../fonts/Great-Wishes.otf");
+}
+@font-face {
+	font-family: "Chocolate";
+ 	src: url("../fonts/coolvetica.ttf");
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: "Chocolate";
+	font-size: 1.5em;
+	color: white;
+	background-image: url(../img/white.jpg);
+	background-size: 100%;
+	background-repeat: repeat-y;
+}
+
+.hide{
+	display: none;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+header {
+	font-family: "Great";
+	background-image: url(../img/background.jpeg);
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 5px 5px grey;
+}
+h1 {
+	color: gold;
+	padding: 100px;
+	font-size: 4em;
+	text-align: center;
+	margin: 0;
+}
+#intro {
+	text-align: center;
+	color: black
+}
+#movie-ctn {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.card {	
+	border-radius: 10px;
+	width: 30%;
+	margin: 10px auto;
+	padding: 10px;
+	background: rgb(71,71,71);
+	background: radial-gradient(circle, rgba(71,71,71,1) 25%, rgba(0,0,0,1) 86%);
+	box-shadow: 10px 5px 5px grey;
+}
+.card h2 {
+	text-align: center;
+}
+.card img {
+	max-width: 100%;
+}
+
+footer {
+	text-align: center;
+}
+
+
+/*  */
+form {
+	width: fit-content;
+	margin: 15px auto;
+}
+input{
+	text-align: center;
+}
+
+#ctn-movie{	
+	justify-content: space-around;
+	width: 90%;
+	margin: 3% auto;
+}
+
+#list-movies, #detail-movie {
+	background-color: #333;
+	color: #fff;
+	padding: 5%;
+	border-radius: 10px;
+}
+
+#list-movies{
+	width: 30%;
+}
+
+#detail-movie{
+	width: 50%;
+}
+
+li {
+	margin: 8px 0;
+	cursor: pointer;
+	letter-spacing: 1.7px;
+}
+
+#detail-movie img {
+	max-width: 350px;
+	max-height: 400px;
+}
+
+#list-movies li:hover {
+	transform: scale(1.2);
+	font-weight: bold;
+}
+
+.fa-clapperboard, .fa-video {
+	margin-right: 5px;
+}
+
+.company-list {
+	margin: auto;
+}
+
+article h2 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.company-list li {text-align: center;}
+
+
+.fa-star, .fa-star-half-stroke {
+	color: gold;
+}

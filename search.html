@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Movie Ajax</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<header>
+			<h1>Les films de la semaine</h1>
+			<nav>
+				<a href="index.html">home</a>
+				<a href="search.html" class="isActive">search</a>
+			</nav>
+		</header>
+		
+		<main>
+			<section id="intro">
+				<p>Recherche un film pour ton plus grand plaisir 😘</p>
+			</section>
+
+            <form>
+                <input type="text" id="search">
+            </form>
+
+            <section id="ctn-movie">
+
+                <ul id="list-movies" class="hide">
+                    
+                </ul>
+                
+                <aside id="detail-movie" class="hide">
+                    
+                </aside>
+				
+            </section>
+			
+			
+		</main>
+		<footer>
+			<p>Copyright Lord & Ro'14</p>
+		</footer>
+
+
+	<script src="js/api.js"></script>
+	<script src="js/main.js"></script>
+	</body>
+</html>
